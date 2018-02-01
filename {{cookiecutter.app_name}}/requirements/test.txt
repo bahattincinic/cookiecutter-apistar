@@ -1,0 +1,6 @@
+-r base.txt
+
+flake8
+coverage
+mypy
+pytest-env==0.6.2
