@@ -1,14 +1,11 @@
 cookiecutter-apistar
 ==================
 
-A API Star template for cookiecutter_.
-
-.. _cookiecutter: https://github.com/audreyr/cookiecutter
+A API Star template for [cookiecutter](https://github.com/audreyr/cookiecutter)
 
 
 Use it now
 ----------
-::
 
     $ pip install cookiecutter
     $ cookiecutter https://github.com/bahattincinic/cookiecutter-apistar.git
