@@ -1,7 +1,7 @@
 from apistar import Include, Route
 from apistar.handlers import docs_urls, static_urls
 
-from {{ cookiecutter.project_short_description}}.views import (
+from {{ cookiecutter.app_name}}.views import (
     list_view, create_view
 )
 
