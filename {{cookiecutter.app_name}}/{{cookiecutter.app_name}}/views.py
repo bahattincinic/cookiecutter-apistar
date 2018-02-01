@@ -13,7 +13,7 @@ def list_view(session: Session) -> Response:
 
 
 def create_view(session: Session, data: ExampleCreate) -> Response:
-    instance = Example(name=data.name)
+    instance = Example(name=data['name'])
     session.add(instance)
     session.flush()
 
