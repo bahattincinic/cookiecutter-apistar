@@ -1,0 +1,2 @@
+[report]
+omit = */python3.6/site-packages/*,app.py,*/python3.6/distutils/*,runtests.py,*routes.py,tests.py
