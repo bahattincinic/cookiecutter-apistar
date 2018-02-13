@@ -12,8 +12,8 @@ def run_tests():
 
 def get_parser():
     parser = argparse.ArgumentParser(
-        prog="secretmarks",
-        description='Secret Marks Test Runner'
+        prog="{{ cookiecutter.app_name }}",
+        description='{{ cookiecutter.app_name }} Test Runner'
     )
     parser.add_argument('--nolint', dest='nolint', action='store_true')
     parser.add_argument('--lintonly', dest='lintonly', action='store_true')
